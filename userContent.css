@@ -38,7 +38,7 @@
     }
 }
 
-@-moz-document domain("laomoit.com") {
+@-moz-document domain("laomoit.com"), domain("mpyit.com") {
     body {
         background-color: #f0f4fb!important;
         background-image: none!important;
@@ -133,7 +133,7 @@
 }
 
 @-moz-document domain("www.douyu.com") {
-    .PaladinWeek-toast, .PcDiversion, #js-room-activity, #js-player-guessgame, #js-bottom, .PlayerToolbar-Content, [class^="multiBitRate-"] {
+    .PaladinWeek-toast, .PcDiversion, #js-room-activity, #js-player-guessgame, #js-bottom, .PlayerToolbar-Content, [class^="multiBitRate-"], [class*="watermark-"] {
         display: none!important;
     }
 }
