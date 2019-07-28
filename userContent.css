@@ -96,7 +96,7 @@
 }
 
 @-moz-document domain("youku.com") {
-    .player-container+.l-container, .g-footer, .youku-layer-wuliao, .h5-ext-layer, #bpmodule-playpage-segments, #bpmodule-playpage-paction {
+    .player-container+.l-container, .g-footer, .youku-layer-wuliao, #bpmodule-playpage-segments, #bpmodule-playpage-paction {
         display: none!important;
     }
     .player-container {
@@ -108,7 +108,7 @@
 }
 
 @-moz-document domain("iqiyi.com") {
-    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips {
+    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips, #frameGuide, #secondFrame {
         display: none!important;
     }
 }
