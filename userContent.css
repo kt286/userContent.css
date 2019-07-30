@@ -85,7 +85,7 @@
 }
 
 @-moz-document domain("v.qq.com") {
-    ._x_webtips_window_iframe, .container_player+.container_main, .site_footer, [data-role="txp-ui-favorite"], .txp_popup_download, #populartoday, .mod_row_box_ad, [_wind="columnname=new_vs3_banner2"], .txp_popup_sukan, .player_headline+div, #_mod_comments, .tip_download, .result_suggest, .player_bg_ad, [data-role^="hd-ad-adapter-"], .mod_ad, [data-role="ui-buy-play-container"], .mod_scene_change, #_vip_player_sec, .txp_comment_hot, .txp-watermark, .player_helper, .result_relative, [_r-component="c-new-tv-preheat"], [_wind="columnname=精彩周边"], #pc_client {
+    ._x_webtips_window_iframe, .container_player+.container_main, .site_footer, [data-role="txp-ui-favorite"], .txp_popup_download, #populartoday, .mod_row_box_ad, [_wind="columnname=new_vs3_banner2"], .txp_popup_sukan, .player_headline+div, #_mod_comments, .tip_download, .result_suggest, .player_bg_ad, [data-role^="hd-ad-adapter-"], .mod_ad, [data-role="ui-buy-play-container"], .mod_scene_change, #_vip_player_sec, .txp_comment_hot, .txp-watermark, .player_helper, .result_relative, [_r-component="c-new-tv-preheat"], [_wind="columnname=精彩周边"], #pc_client, .txp_tipbar {
         display: none!important;
     }
     @media (max-width: 1549px) {
@@ -138,7 +138,7 @@
     }
 }
 
-@-moz-document url-prefix("https://msdn.itellyou.cn/") {
+@-moz-document domain("itellyou.cn") {
     .shang_box, .detail pre:nth-child(3) {
         display: none!important;
     }
