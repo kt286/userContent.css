@@ -114,7 +114,7 @@
 }
 
 @-moz-document domain("csdn.net") {
-    .recommend-box, .pulllog-box, .hide-article-box, #asideFooter, #asideHotArticle {
+    .recommend-box, .pulllog-box, .hide-article-box, #asideFooter, #asideHotArticle, #asideNewComments, .csdn-tracking-statistics.box-shadow, .csdn-side-toolbar, .tool-box, .blog-content-box+.clearfix {
         display: none!important;
     }
     #article_content {
