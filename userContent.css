@@ -120,6 +120,9 @@
     #article_content {
         height: auto!important;
     }
+    .comment-list-box {
+        max-height: none!important
+    }
 }
 
 @-moz-document domain("ruanyifeng.com") {
