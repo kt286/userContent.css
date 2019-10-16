@@ -113,6 +113,12 @@
     }
 }
 
+@-moz-document domain("live.bilibili.com") {
+    .player-and-aside-area~*, .link-footer-ctnr, .gift-control-section, .bilibili-live-player-video-controller-feedback-btn, .haruna-sekai-de-ichiban-kawaii {
+        display: none!important;
+    }
+}
+
 @-moz-document domain("csdn.net") {
     .recommend-box, .pulllog-box, .hide-article-box, #asideFooter, #asideHotArticle, #asideNewComments, .csdn-tracking-statistics.box-shadow, .csdn-side-toolbar, .tool-box, .reward-user-box *, .blog-content-box+.clearfix {
         display: none!important;
