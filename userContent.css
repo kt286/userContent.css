@@ -46,7 +46,7 @@
     #wrapper {
         background-color: #ffffff!important;
     }
-    #sidebar, .entry_box_s+h3, .entry_box_s+h3+.entry_b, [class*="footer_"], #respond_box, #header iframe, #header .time, .flashNews, .link, #playBox, #content>div:first-child, .entry_box_s>.cboxElement {
+    #sidebar, .entry_box_s+h3, .entry_box_s+h3+.entry_b, [class*="footer_"], #respond_box, #header iframe, #header .time, .flashNews, .link, #playBox, #content>div:first-child, .entry_box_s>.cboxElement, .entry_box_s>.cboxElement+* {
         display: none!important;
     }
     #content, .entry_box_s, .entry, .archive_box, .entry_box, #post, .box_entry {
