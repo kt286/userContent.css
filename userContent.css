@@ -38,6 +38,12 @@
     }
 }
 
+@-moz-document domain("toutiao.com") {
+    .detail-feed, .share-box, .index-right>div+*, .toutiao-header>.topbar {
+        display: none!important;
+    }
+}
+
 @-moz-document domain("laomoit.com"), domain("mpyit.com") {
     body {
         background-color: #f0f4fb!important;
