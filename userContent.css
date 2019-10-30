@@ -125,6 +125,12 @@
     }
 }
 
+@-moz-document domain("www.douyu.com") {
+    .PaladinWeek-toast, .PcDiversion, #js-room-activity, #js-player-guessgame, #js-bottom, .PlayerToolbar-Content, [class^="multiBitRate-"], [class*="watermark-"] {
+        display: none!important;
+    }
+}
+
 @-moz-document domain("csdn.net") {
     .recommend-box, .pulllog-box, .hide-article-box, #asideFooter, #asideHotArticle, #asideNewComments, .csdn-tracking-statistics.box-shadow, .csdn-side-toolbar, .tool-box, .reward-user-box *, .blog-content-box+.clearfix, [data-type="ad"], [id^="kp_box_"] {
         display: none!important;
@@ -150,12 +156,6 @@
     }
 }
 
-@-moz-document domain("www.douyu.com") {
-    .PaladinWeek-toast, .PcDiversion, #js-room-activity, #js-player-guessgame, #js-bottom, .PlayerToolbar-Content, [class^="multiBitRate-"], [class*="watermark-"] {
-        display: none!important;
-    }
-}
-
 @-moz-document domain("itellyou.cn") {
     .shang_box, .detail pre:nth-child(3) {
         display: none!important;
@@ -171,5 +171,14 @@
 @-moz-document domain("inoreader.com") {
     [id*="_ad-"], .ad_footer_remove, .ad_title {
         display: none!important;
+    }
+}
+
+@-moz-document domain("exmail.qq.com") {
+    .login_scan_panel {
+        display: none!important;
+    }
+    .login_account_pwd_panel {
+        display: block!important;
     }
 }
