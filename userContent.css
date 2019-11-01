@@ -24,7 +24,7 @@
 }
 
 @-moz-document domain("kkj.cn"), domain("mydrivers.com") {
-    .shidian, .shidian+div, .main_right, div[style="width:1300px; height:90px;margin:auto;background-color:#FFF"], div[style="width:1300px;height:90px;margin:auto;background:#fff;"], .main~.main, #footer, .top, .nav_box, .weixin, .winxin~div, .main_box, .main1, .cooperation, .footer_about, .link, #a_showhotnews_list_dia, .share, #i_lastnext, .news_xg, .plun_input, .baidu, .news_right, .bqian, #taboola-below-article-thumbnails, #taboola-below-article-thumbnails~div, #tianqi_my, .top_2_right2, .zcdf, .zcdf~div {
+    .shidian, #footer, #footer~*, .top, .nav_box, .weixin, .winxin~div, .main1, .cooperation, .footer_about, .link, #a_showhotnews_list_dia, .share, #i_lastnext, .news_xg, .plun_input, .baidu, .news_right, .bqian, #taboola-below-article-thumbnails, #taboola-below-article-thumbnails~div, #tianqi_my, .top_2_right2, .zcdf, .zcdf~div {
         display: none!important;
     }
     .news_left, .plun_box {
