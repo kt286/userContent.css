@@ -120,7 +120,7 @@
 }
 
 @-moz-document domain("live.bilibili.com") {
-    .player-and-aside-area~*, .link-footer-ctnr, .gift-control-section, .bilibili-live-player-video-controller-feedback-btn, .haruna-sekai-de-ichiban-kawaii, .chat-popups-section {
+    .player-and-aside-area~*, .link-footer-ctnr, .gift-control-section, .bilibili-live-player-video-controller-feedback-btn, .haruna-sekai-de-ichiban-kawaii, .chat-popups-section, .bilibili-live-player-video-logo {
         display: none!important;
     }
 }
