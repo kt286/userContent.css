@@ -114,7 +114,7 @@
 }
 
 @-moz-document domain("iqiyi.com") {
-    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips, #frameGuide, #secondFrame {
+    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips, #frameGuide, #secondFrame, .iqp-screenshot {
         display: none!important;
     }
 }
