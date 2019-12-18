@@ -176,3 +176,9 @@
         display: block!important;
     }
 }
+
+@-moz-document domain("kyfw.12306.cn") {
+    #sear-sel {
+        display: block!important;
+    }
+}
