@@ -182,3 +182,9 @@
         display: block!important;
     }
 }
+
+@-moz-document domain("baike.baidu.com") {
+    .secondsknow-large-container, .wgt-footer-main, [class^="lemmaWgt-promotion-"], .new-bdsharebuttonbox {
+        display: none!important;
+    }
+}
