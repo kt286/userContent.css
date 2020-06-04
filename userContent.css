@@ -126,7 +126,7 @@
 }
 
 @-moz-document domain("csdn.net") {
-    .recommend-box, .pulllog-box, .hide-article-box, #asideFooter, #asideHotArticle, #asideNewComments, .csdn-tracking-statistics.box-shadow, .csdn-side-toolbar, .tool-box, .reward-user-box *, .blog-content-box+.clearfix, [data-type="ad"], [id^="kp_box_"] {
+    .recommend-box, .pulllog-box, .hide-article-box, #asideFooter, #asideHotArticle, #asideNewComments, .csdn-tracking-statistics.box-shadow, .csdn-side-toolbar, .tool-box, .reward-user-box *, .blog-content-box+.clearfix, [data-type="ad"], [id^="kp_box_"], .login-mark, .login-box {
         display: none!important;
     }
     #article_content {
