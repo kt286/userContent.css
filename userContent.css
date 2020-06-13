@@ -166,6 +166,10 @@
     [id*="_ad-"], .ad_footer_remove, .ad_title {
         display: none!important;
     }
+    /**36kr**/
+    #three_way_contents .article_content .p_no_top {
+        display: none!important;
+    }
 }
 
 @-moz-document domain("exmail.qq.com") {
