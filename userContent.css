@@ -119,6 +119,12 @@
     }
 }
 
+@-moz-document domain("bilibili.com") {
+    .video-page-game-card {
+        display: none!important
+    }
+}
+
 @-moz-document domain("www.douyu.com") {
     .PaladinWeek-toast, .PcDiversion, #js-room-activity, #js-player-guessgame, #js-bottom, .PlayerToolbar-Content, [class^="multiBitRate-"], [class*="watermark-"] {
         display: none!important;
@@ -162,7 +168,7 @@
     }
 }
 
-@-moz-document domain("inoreader.com") {
+@-moz-document domain("inoreader.com"), domain("innoreader.com"), domain("92.247.181.40") {
     [id*="_ad-"], .ad_footer_remove, .ad_title {
         display: none!important;
     }
