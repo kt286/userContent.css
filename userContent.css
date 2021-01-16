@@ -52,7 +52,7 @@
     #wrapper {
         background-color: #ffffff!important;
     }
-    #sidebar, .entry_box_s+h3, .entry_box_s+h3+.entry_b, [class*="footer_"], #respond_box, #header iframe, #header .time, .flashNews, .link, #playBox, #content>div:first-child, .entry_box_s>.cboxElement, .entry_box_s>.cboxElement+* {
+    #sidebar, .entry_box_s+h3, .entry_box_s+h3+.entry_b, [class*="footer_"], #header iframe, #header .time, .flashNews, .link, #playBox, #content>div:first-child, .entry_box_s>.cboxElement, .entry_box_s>.cboxElement+* {
         display: none!important;
     }
     #content, .entry_box_s, .entry, .archive_box, .entry_box, #post, .box_entry {
@@ -101,6 +101,12 @@
     }
 }
 
+@-moz-document domain("bilibili.com") {
+    .video-page-game-card, .bilibili-player-ending-panel {
+        display: none!important
+    }
+}
+
 @-moz-document domain("youku.com") {
     .play-top-container~div, .youku-layer-wuliao, .qr-wrap, .js-top-icon, .fee-wrap, .component-title+div {
         display: none!important;
@@ -108,7 +114,7 @@
 }
 
 @-moz-document domain("iqiyi.com") {
-    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips, #frameGuide, #secondFrame, .iqp-screenshot, [adid^="ad-"] {
+    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips, #frameGuide, #secondFrame, .iqp-screenshot, [adid^="ad-"], #qyBarrageVue {
         display: none!important;
     }
 }
@@ -116,12 +122,6 @@
 @-moz-document domain("live.bilibili.com") {
     .player-and-aside-area~*, .link-footer-ctnr, .gift-control-section, .bilibili-live-player-video-controller-feedback-btn, .haruna-sekai-de-ichiban-kawaii, .chat-popups-section, .bilibili-live-player-video-logo {
         display: none!important;
-    }
-}
-
-@-moz-document domain("bilibili.com") {
-    .video-page-game-card {
-        display: none!important
     }
 }
 
@@ -196,5 +196,14 @@
 @-moz-document domain("baike.baidu.com") {
     .secondsknow-large-container, .wgt-footer-main, [class^="lemmaWgt-promotion-"], .new-bdsharebuttonbox {
         display: none!important;
+    }
+}
+
+@-moz-document domain("appinn.com") {
+    .featured-section, #sidebar, .related-posts, #site-footer {
+        display: none!important;
+    }
+    .article {
+        width: 100%!important;
     }
 }
