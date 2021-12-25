@@ -1,209 +1,245 @@
 @-moz-document domain("cnbeta.com") {
     .cnbeta-headlines, .topContent, .cnbeta-home-side, .tac, .cnbeta-article-vote-tags, .article-share-code, .cnbeta-article-comments-postbox, #cbhahaha, [id^="taboola_"], .cnbeta-article-latest {
-        display: none!important;
+        display: none !important;
     }
+
     .cnbeta-update-list, .cnbeta-article {
-        width: 100%!important;
+        width: 100% !important;
     }
+
     body {
-        padding-bottom: 0px!important;
+        padding-bottom: 0px !important;
     }
-    div[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"] {
-        height: 0!important;
+
+    div[style="display:block!important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"] {
+        height: 0 !important;
     }
+
     .article-summary {
-        background-color: #DDD!important;
+        background-color: #DDD !important;
     }
+
     .cnbeta-update-list .item {
-        background: none!important;
-        border: none!important;
-        margin: 15px!important;
-        background-color: white!important;
-        box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2)!important;
+        background: none !important;
+        border: none !important;
+        margin: 15px !important;
+        background-color: white !important;
+        box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2) !important;
     }
 }
 
 @-moz-document domain("kkj.cn"), domain("mydrivers.com") {
     .shidian, #footer, #footer~*, .top, .nav_box, .weixin, .winxin~div, .main1, .cooperation, .footer_about, .link, #a_showhotnews_list_dia, .share, #i_lastnext, .news_xg, .plun_input, .baidu, .news_right, .bqian, #taboola-below-article-thumbnails, #taboola-below-article-thumbnails~div, #tianqi_my, .top_2_right2, .zcdf, .zcdf~div {
-        display: none!important;
+        display: none !important;
     }
+
     .news_left, .plun_box {
-        width: auto!important;
+        width: auto !important;
     }
 }
 
 @-moz-document domain("ithome.com") {
     .dajia, .related_post, .shareto, .newsgrade, #ft, [id^="tt"], #postcomment3, .sfa.app, .sfa.sideweixin, .sfa.tougao {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("toutiao.com") {
     .detail-feed, .share-box, .index-right>div+*, .toutiao-header>.topbar {
-        display: none!important;
+        display: none !important;
     }
 }
 
-@-moz-document domain("laomoit.com"), domain("mpyit.com") {
+@-moz-document domain("laomoit.com"), domain("mpyit.com"), domain("acold.xyz") {
     body {
-        background-color: #f0f4fb!important;
-        background-image: none!important;
+        background-color: #f0f4fb !important;
+        background-image: none !important;
     }
+
     #wrapper {
-        background-color: #ffffff!important;
+        background-color: #ffffff !important;
     }
-    #sidebar, .entry_box_s+h3, .entry_box_s+h3+.entry_b, [class*="footer_"], #header iframe, #header .time, .flashNews, .link, #playBox, #content>div:first-child, .entry_box_s>.cboxElement, .entry_box_s>.cboxElement+* {
-        display: none!important;
+
+    #sidebar, .entry_box_s+h3, .entry_box_s+h3+.entry_b, [class*="footer_"], #header iframe, #header .time, .flashNews, .link, #playBox, #content>div:first-child, .entry_box_s>.cboxElement, .entry_box_s>.cboxElement+*, #post>#map {
+        display: none !important;
     }
+
     #content, .entry_box_s, .entry, .archive_box, .entry_box, #post, .box_entry {
-        width: auto!important;
-        float: none!important;
+        width: auto !important;
+        float: none !important;
     }
+
     #wrapper {
-        padding: 15px!important;
-        box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3)!important;
-        margin: 20px auto!important;
+        padding: 15px !important;
+        box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3) !important;
+        margin: 20px auto !important;
+        border-radius: 8px !important;
     }
+
     .entry_box {
-        padding: 15px!important;
-        margin: 5px!important;
-        box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1)!important;
+        padding: 15px !important;
+        margin: 5px !important;
+        box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1) !important;
+        border-radius: 8px !important;
     }
+
     #pagenavi>* {
-        padding: 10px!important;
-        border: 1px solid #eeeeee!important;
+        padding: 10px !important;
+        border: 1px solid #eeeeee !important;
     }
+
+    #post {
+        box-shadow: none !important;
+    }
+
+    #top {
+        padding-bottom: 12px !important;
+    }
+
 }
 
 @-moz-document domain("freebuf.com") {
     .openClass, .product-recomend, .video-recommend, .marvellous-activity, .partners, .footer, .banner-wrap, #timeline #timeline {
-        display: none!important;
+        display: none !important;
     }
+
     body, html {
-        background: none!important;
+        background: none !important;
     }
 }
 
 @-moz-document domain("juejin.im") {
     .toggle-area.zoomout, .request-health-alert {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("v.qq.com") {
     ._x_webtips_window_iframe, .container_player+.container_main, .site_footer, [data-role="txp-ui-favorite"], .txp_popup_download, #populartoday, .mod_row_box_ad, [_wind="columnname=new_vs3_banner2"], .txp_popup_sukan, .player_headline+div, #_mod_comments, .tip_download, .result_suggest, .player_bg_ad, [data-role^="hd-ad-adapter-"], .mod_ad, [data-role="ui-buy-play-container"], .mod_scene_change, #_vip_player_sec, .txp_comment_hot, .txp-watermark, .player_helper, .result_relative, [_r-component="c-new-tv-preheat"], [_wind="columnname=精彩周边"], #pc_client, .txp_tipbar, #new_vs_hot_today, #multi_feed_V, .txp-watermark-action {
-        display: none!important;
+        display: none !important;
     }
+
     @media (max-width: 1549px) {
         .container_short .wrap_side {
-            height: 545px!important;
+            height: 545px !important;
         }
     }
 }
 
 @-moz-document domain("bilibili.com") {
-    .video-page-game-card, .bilibili-player-ending-panel {
-        display: none!important
+    .video-page-game-card, .web-player-inject-wrap, #anchor-guest-box-id, .web-player-icon-roomStatus, .head-title, .banner-link, .bili-avatar-pendent, .reply-notice, #activity_vote {
+        display: none !important
+    }
+
+    .bili-banner, .bili-header__banner {
+        background: none !important;
     }
 }
 
 @-moz-document domain("youku.com") {
     .play-top-container~div, .youku-layer-wuliao, .qr-wrap, .js-top-icon, .fee-wrap, .component-title+div {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("iqiyi.com") {
-    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips, #frameGuide, #secondFrame, .iqp-screenshot, [adid^="ad-"], #qyBarrageVue {
-        display: none!important;
+    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips, #frameGuide, #secondFrame, .iqp-screenshot, [adid^="ad-"], #qyBarrageVue, .qy-search-result-recomd {
+        display: none !important;
     }
 }
 
 @-moz-document domain("live.bilibili.com") {
     .player-and-aside-area~*, .link-footer-ctnr, .gift-control-section, .bilibili-live-player-video-controller-feedback-btn, .haruna-sekai-de-ichiban-kawaii, .chat-popups-section, .bilibili-live-player-video-logo {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("www.douyu.com") {
     .PaladinWeek-toast, .PcDiversion, #js-room-activity, #js-player-guessgame, #js-bottom, .PlayerToolbar-Content, [class^="multiBitRate-"], [class*="watermark-"] {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("csdn.net") {
     .recommend-box, .pulllog-box, .hide-article-box, #asideFooter, #asideHotArticle, #asideNewComments, .csdn-tracking-statistics.box-shadow, .csdn-side-toolbar, .tool-box, .reward-user-box *, .blog-content-box+.clearfix, [data-type="ad"], [id^="kp_box_"], .login-mark, .login-box {
-        display: none!important;
+        display: none !important;
     }
+
     #article_content {
-        height: auto!important;
+        height: auto !important;
     }
+
     .comment-list-box {
-        max-height: none!important
+        max-height: none !important
     }
+
     body {
-        background: #f5f6f7!important;
+        background: #f5f6f7 !important;
     }
 }
 
 @-moz-document domain("ruanyifeng.com") {
     a>img[src*="wangbase.com/blogimg/asset/"] {
-        display: block!important;
-        height: 0!important;
+        display: block !important;
+        height: 0 !important;
     }
+
     a[href^="https://ke.qq.com/"], #cre, #related_entries {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("itellyou.cn") {
     .shang_box, .detail pre:nth-child(3) {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("taobao.com") {
     .J_guess-you-like, #interested {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("inoreader.com"), domain("innoreader.com"), domain("92.247.181.40") {
     [id*="_ad-"], .ad_footer_remove, .ad_title {
-        display: none!important;
+        display: none !important;
     }
+
     /**36kr**/
     #three_way_contents .article_content .p_no_top {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("exmail.qq.com") {
     .login_scan_panel {
-        display: none!important;
+        display: none !important;
     }
+
     .login_account_pwd_panel {
-        display: block!important;
+        display: block !important;
     }
 }
 
 @-moz-document domain("kyfw.12306.cn") {
     #sear-sel {
-        display: block!important;
+        display: block !important;
     }
 }
 
 @-moz-document domain("baike.baidu.com") {
     .secondsknow-large-container, .wgt-footer-main, [class^="lemmaWgt-promotion-"], .new-bdsharebuttonbox {
-        display: none!important;
+        display: none !important;
     }
 }
 
 @-moz-document domain("appinn.com") {
     .featured-section, #sidebar, .related-posts, #site-footer {
-        display: none!important;
+        display: none !important;
     }
+
     .article {
-        width: 100%!important;
+        width: 100% !important;
     }
 }
