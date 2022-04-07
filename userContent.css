@@ -83,19 +83,19 @@
         border-radius: 8px !important;
     }
 
-    #pagenavi>* {
+    previous {
         padding: 10px !important;
-        border: 1px solid #eeeeee !important;
+        margin: 10px !important;
+    }
+
+    .pages, .page-numbers {
+        padding: 10px !important;
+        border: 1px solid #bbbbbb !important;
     }
 
     #post {
         box-shadow: none !important;
     }
-
-    #top {
-        padding-bottom: 12px !important;
-    }
-
 }
 
 @-moz-document domain("freebuf.com") {
