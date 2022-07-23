@@ -127,7 +127,7 @@
 }
 
 @-moz-document domain("bilibili.com") {
-    .video-page-game-card, .web-player-inject-wrap, #anchor-guest-box-id, .web-player-icon-roomStatus, .head-title, .banner-link, .bili-avatar-pendent, .reply-notice, #activity_vote {
+    .video-page-game-card, .web-player-inject-wrap, #anchor-guest-box-id, .web-player-icon-roomStatus, .head-title, .banner-link, .bili-avatar-pendent, .reply-notice, #activity_vote, .video-page-special-card-small {
         display: none !important
     }
 
@@ -143,7 +143,7 @@
 }
 
 @-moz-document domain("iqiyi.com") {
-    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips, #frameGuide, #secondFrame, .iqp-screenshot, [adid^="ad-"], #qyBarrageVue, .qy-search-result-recomd {
+    .qy-play-top+.qy-play-container, .qy-footer-channel, .detail-sd, #widget-movie-newtidbits, #widget-videorezebra, .qy-player-side-ear, .qy-flash-func, [data-cupid="adblock-blackscreen"], .iqp-box-integral, .iqp-logo-box, .qy-scroll-vpro, .anchor-integral, .qy-barrage-redbag-tips, #frameGuide, #secondFrame, .iqp-screenshot, [adid^="ad-"], #qyBarrageVue, .qy-search-result-recomd, [data-bk-id="album_related_bk"], [data-block-v2$="_listbox_zbsp"], .meta-cont .fun, .iqp-client-launcher {
         display: none !important;
     }
 }
